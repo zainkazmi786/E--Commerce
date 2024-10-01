@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clippath1{
+  clip-path: ellipse(49% 36% at 51% 52%);
+}
+.clippath2{
+  clip-path: ellipse(56% 70% at 47% 30%);
+}
+
+/* Apply radial gradient background */
+.gradient-box {
+  background: radial-gradient(circle, #000000, #d7d3d3);
+}

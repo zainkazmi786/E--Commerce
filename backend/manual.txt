@@ -1,0 +1,8 @@
+Set up a Flask project with the necessary directories and files (app.py, config, etc.).
+Install MongoDB and configure it with Flask using pymongo or flask_pymongo.
+Create MongoDB collections for storing course details like course name, description, price, and category.
+Define Flask routes for CRUD operations (create, read, update, delete) on courses.
+Implement an API route to fetch courses based on their category (e.g., /courses/<category>).
+Add user authentication (optional) using Flask-Login or JWT for managing admin access.
+Set up error handling and validation for input data in the API.
+Test all routes and database connections using tools like Postman or Flask's built-in test client.
