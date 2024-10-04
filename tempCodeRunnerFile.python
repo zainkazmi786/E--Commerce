@@ -1,0 +1,12 @@
+sentence = input("Enter the sentence : ")
+length = len(sentence)
+words = sentence.split()
+no_of_words = len(words)
+print(f"Total number of words : {no_of_words} \nLength of string : {length}")
+len_of_word = len(words[0])
+for word in words:
+    if len(word) <= len_of_word:
+        len_of_word = len(word)
+        
+small = [word for word in words if (len(word)==len_of_word)]
+print(f"Shortest word and length ....\n{small}\t: {len_of_word}")

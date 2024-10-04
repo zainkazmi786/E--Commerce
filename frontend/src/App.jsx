@@ -1,14 +1,18 @@
 import React from 'react'
 import Home from './pages/home'
 import Course from './pages/course'
+import Navbar from './components/navbar'
+import Productpage from './pages/productpage'
 
 
 const App = () => {
   return (
-    <div className=''>
+    <body className='relative h-full'>
+      <Navbar/>
       {/* <Home/> */}
-      <Course/>
-    </div>
+      {/* <Course/> */}
+      <Productpage/>
+    </body>
   )
 }
 
